@@ -1,0 +1,127 @@
+:root {
+  --myColor: #34495E;
+  --shadow: 1px 1px 0px rgba(0, 0, 0, 0.9); }
+
+::-moz-selection {
+  background: var(--myColor);
+  color: #fff; }
+
+::selection {
+  background: var(--myColor);
+  color: #fff; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#churches-heading,
+#school-heading,
+#contact-heading {
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  letter-spacing: .3rem;
+  word-spacing: .3rem; }
+  #churches-heading h1, #churches-heading h2, #churches-heading h3,
+  #school-heading h1,
+  #school-heading h2,
+  #school-heading h3,
+  #contact-heading h1,
+  #contact-heading h2,
+  #contact-heading h3 {
+    text-shadow: var(--shadow); }
+
+footer a {
+  text-decoration: none !important; }
+
+.carousel-item {
+  height: 60vh; }
+
+.carousel-image-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("../img/hero1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/hero1.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+.carousel-image-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("../img/hero2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/hero2.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+.carousel-image-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("../img/hero3.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/hero3.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+.carousel-image-4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("../img/hero4.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/hero4.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+.carousel-inner {
+  position: relative; }
+
+#news [data-parent="#accordion"] {
+  cursor: pointer; }
+
+.news-icons {
+  height: 1.25rem;
+  width: 1.25rem;
+  fill: var(--myColor); }
+
+#churches-header .port-item {
+  cursor: pointer; }
+
+#churches-heading {
+  min-height: 30vh;
+  background: url("../img/witraz1.jpg");
+  background-repeat: no-repeat; }
+
+.highlighted {
+  background-color: #34495E; }
+
+#school-heading {
+  min-height: 30vh;
+  background: url("../img/pencils.jpg");
+  background-position: center 45%;
+  background-repeat: no-repeat; }
+
+#school-groups {
+  margin-top: 6rem; }
+  #school-groups .school-icons {
+    margin-top: 1rem;
+    height: 7rem;
+    width: 7rem;
+    fill: var(--myColor); }
+  #school-groups .bigger {
+    font-size: 110%;
+    margin-top: -2px;
+    color: #000; }
+
+#school-gallery {
+  margin-top: 3rem; }
+
+#contact-heading {
+  min-height: 30vh;
+  background: url("../img/witraz2.jpg");
+  background-repeat: no-repeat; }
+
+.input-group-addon {
+  min-width: 4rem; }
+  .input-group-addon .contact-icons {
+    height: 2rem;
+    width: 2rem;
+    fill: var(--myColor); }

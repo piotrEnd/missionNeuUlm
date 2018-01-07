@@ -1,0 +1,22 @@
+{
+  "name": "pmkneuulm",
+  "version": "1.0.0",
+  "description": "Polska Misja Katolicka Neu-Ulm",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "piotrEnd",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.19.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
